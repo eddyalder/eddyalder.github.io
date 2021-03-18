@@ -2178,7 +2178,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 			content: '';
 			display: block;
 			height: 100%;
@@ -2706,10 +2706,12 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		/* background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg"); */
+		background-color: #253447;
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
+		height: 1200px;
 		color: rgba(255, 255, 255, 0.8);
 		padding: 10em 0 20em 0;
 		position: relative;
@@ -2717,7 +2719,7 @@ input, select, textarea {
 	}
 
 		#header:before, #header:after {
-			background: rgba(224, 224, 224, 0.75);
+			/* background: rgba(224, 224, 224, 0.75); */
 			content: '';
 			left: 50%;
 			position: absolute;
@@ -2796,7 +2798,7 @@ input, select, textarea {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #253447;;
 		/* background-color: #a30000;  */
 		/* Find a better red to make the color scheme to */ 
 		background-image: url("images/bottom-3200.svg");
@@ -2907,6 +2909,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
+		/* background: #253480; */
 		padding: 6em 0 5em 0;
 		position: relative;
 		z-index: 1;
