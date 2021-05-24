@@ -2527,7 +2527,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background: #544d55;
-		border-radius: 4px;
+		border-radius: 8px;
 		border: 0;
 		color: #ffffff;
 		cursor: pointer;
@@ -2745,7 +2745,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #4eb980;
+				color: #CE4545;
 			}
 
 		#header strong, #header b {
